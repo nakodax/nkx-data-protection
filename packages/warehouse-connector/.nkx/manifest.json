@@ -1,0 +1,136 @@
+{
+  "version": 3,
+  "kdf": {
+    "salt": "q/d9aHL3Noq8QJfBF3VJwg==",
+    "n": 131072,
+    "r": 8,
+    "p": 1
+  },
+  "context": {
+    "build_id": "267727fb-37e0-4f90-92ca-1ee8452d9f47",
+    "runtime_sources": []
+  },
+  "slot_prefix": "packages/warehouse-connector",
+  "files": {
+    "package.json": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "7b3U3+SkXgVwIIcfmBHbNttX4WBLft968XzVOlB29VxAQZXP90eWrsrk4zl6KK0yJ2Sus1n7QK8E3uMR",
+      "sha256": "c9b752227548c2a0eff9544066980a83e7fa91ca17337a4d015fd48d94a4b461",
+      "enc_sha256": "12eb8f5bce2384612b50dc5ae00e4fb82bfe85f42232b0c6d7d02d2f36d1375b"
+    },
+    "src/drivers/bigquery.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "rSju2uuiubytrkoYzWIRm1OdkkxriOLOQSEmJCP4LOT/VaO1obrUIXvoZaan8Rt7qBufqENVUo0wGXiP",
+      "sha256": "e7bd9bfce397433ad895134d7a9467a0b1551f51a08dd82b6c63ed90b4e3f15f",
+      "enc_sha256": "50f015ccc533617dcccb624a8948b754bae85a27f9328330d8729e028c560dae",
+      "module": "src.drivers.bigquery.ts",
+      "wrapped_mock_dek": "3EvhgKsgNqDWH8Qb4boWK8fBXxiig9Rjmscah4LNDtH00U2jWXaKUcAKWs2Ah1T8egTGQxuZrTeeFkHj",
+      "mock": "src/drivers/bigquery.ts.mock.ts.nkxc"
+    },
+    "src/drivers/databricks.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "fUBPJ142sfUfaEPktsGKalGBeKyEQNbKPpqyZ5ztvFmORLvrPrxWrG2bOBH1U/yVrp14YMicn5oGn+/j",
+      "sha256": "64eecddb8197d12502162bedca8b1d20aa0ba061c6206ec8bccfd0e6383b7898",
+      "enc_sha256": "6f4ae6277e26471b0220f31d09ee58cd20beea78050824a9c640ffb3f5950aa3",
+      "module": "src.drivers.databricks.ts",
+      "wrapped_mock_dek": "Z8fyuB5GVd94gbmLWVXalPomfiKmAs1J1QLmNQcu0JRLmz29R2iasCmz+WOyeNK20+/eLrSHEcKI6y/R",
+      "mock": "src/drivers/databricks.ts.mock.ts.nkxc"
+    },
+    "src/drivers/postgres.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "bkMnSqdqLvaXS86+1baTAdPN2U3ZfciSWqtb7cWQoW+Vf3q1ZJ0CduCylp5AGXWcOAUUCwKQMgDRnT9g",
+      "sha256": "1a1a0375fc027a55762f6b379ef9381ad0c6076272fece2249581a08cab4439b",
+      "enc_sha256": "e19efd18174bd2945c2b4f36c38266b47df591bb3cbd2bb970558044dbc9b20a",
+      "module": "src.drivers.postgres.ts",
+      "wrapped_mock_dek": "OeCbhMM/nMfRI/bzaeGSTOckdf7SkLzsmi3HtdUrvMqlIwk2NH4qzhRCFuQf9WyOEZ3gJ+oZxJCjNN0n",
+      "mock": "src/drivers/postgres.ts.mock.ts.nkxc"
+    },
+    "src/drivers/redshift.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "DVkQuGTsNjQP6BgyFbjaumO14Rz4nb01zb/47JwIBBSrVEiqy55DqNnqXRza4ui8vPVV0ulEDyoAqspB",
+      "sha256": "44e790009a15d8e5afb0573a8d7660df8fe340b38f519303c0732fb0c53e1c7b",
+      "enc_sha256": "0b53bd6eeaa06a93426bc1450df5838b452e9a69106b1ba48aedbc68f090e989",
+      "module": "src.drivers.redshift.ts",
+      "wrapped_mock_dek": "hEaeDdF4434PCU+B/oIbfhyrsVq4QI7u16wprRqUCkI34c8OZ5/QPnJVy8P+UKL30hFWY+50gDMMB/Vg",
+      "mock": "src/drivers/redshift.ts.mock.ts.nkxc"
+    },
+    "src/drivers/snowflake.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "uapi9hiT3QYvrPvQK4tXOzIMG557zTr9mhhBwBGFRu/othMXDnb5JXeLe/tIhb5zWLmFn/fYDcLWXtUh",
+      "sha256": "50e1eb0884957557b4d2c399e4c3022ed6bcbe89c3a8f84ffdb3bdbe1070ade4",
+      "enc_sha256": "0fbeb9cab983b400537f7aba7e6902bb9f108a5771a2c206c54cf7b6ea892b54",
+      "module": "src.drivers.snowflake.ts",
+      "wrapped_mock_dek": "S4lz/X7AXw3+iVh0K8Hfzo8c6ZnzQQbuC+t7IqL/u+oXndkGfak5noHGtWqGefz+XAinLFz3vun7Ktov",
+      "mock": "src/drivers/snowflake.ts.mock.ts.nkxc"
+    },
+    "src/drivers/synapse.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "celMMMuE5zLhRlUpK4DRbmIpoio8J1//jxNP0aENc3qL1IcynCPhYBVH/eEf6kIxsu+LPTwGbwTMVK/P",
+      "sha256": "3e225a90eafcf6329da0db9f4dad8bac76b23273d57b24603efd3415c551eb43",
+      "enc_sha256": "df94b86fda7c7cdbc33770602a000b865bf1b5e5c8e0c83585ffea63b72ba942",
+      "module": "src.drivers.synapse.ts",
+      "wrapped_mock_dek": "hkNI0uA3YG97g2BUxTx9HyOFVY159A7As2r5jIFTkd3UoJ71hs5Ilx4aavRgxKnyMa91Ly4XOncp2kRU",
+      "mock": "src/drivers/synapse.ts.mock.ts.nkxc"
+    },
+    "src/index.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "rl8VwvJh+GTs8q2+iRbaVxs0MQlMI8hKFAnMI+/a6t5QFvwavn5uzhnOlmSgaKCAkQYTPcyMOQsJGeTy",
+      "sha256": "5a75a52b4f8adaec77f009a06df7c753db7073f658d1af862d19420a7074db11",
+      "enc_sha256": "94cadb0958dbe0d2ae625175bff1e20ffa24349fd8d1cf3e459a38f6acd572ac",
+      "module": "src.index.ts",
+      "wrapped_mock_dek": "G77drtw5m38DkaVXXYtp/PbVX5wKPGijfqdaBo8T2QYev/6J5BSDLMdvJCsL8QAI+JNObeg55rXsnzXl",
+      "mock": "src/index.ts.mock.ts.nkxc"
+    },
+    "test/bigquery.spec.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "E9H+99O4CUCT13Uj9VMM32aKmuRxC/88vIAytp87vs5GiO4WgQqtzZawL9AEXKwEJSAeU/lNHyJG8nt1",
+      "sha256": "fc6c1927006d7a9df6ddf168fae77e9df47db5712076969f24ff1899bca7d319",
+      "enc_sha256": "eb03b3ba43f59935a64311dd7aee638592df8fe387d3ed905598c3c8db3837c0"
+    },
+    "test/databricks.spec.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "24VrHvfkoFHM9y24IP/BCLPtniI/oxUKZq75oR3SN1I8j0E+dVYWFPPgqyCLg+qWWq9vZ7+pdErDK/Vd",
+      "sha256": "24c8d5ef3fb671b3814ba06facd2bf2009a4413ef3d9ffc41dfe1bde65d8d2cc",
+      "enc_sha256": "133249c5231827e9d06b2fa1941f38abd674e9bea9846fc7496199a47bf9737d"
+    },
+    "test/redshift.spec.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "GN8K1T76VRAoO7N2APmxeyrRM0zODmVGjcI+NMibjsWeo37KL2epVBgQB2WVyYJo9zY2qN87iUgs4DXw",
+      "sha256": "363f1a78f42bbc7997e8c8be7ad0467c0207faa5eed8c164e1f7b1c84256d4fb",
+      "enc_sha256": "ec9e5375a1d585eb57bba93d75a35d0018718f3eec8e8f307e22ca3712ba12a1"
+    },
+    "test/snowflake.spec.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "RdAhRK5qFE4ZUZWItVmAwYjiAoT92w1oRFvTTwCsIWe3YwAh3AAK8kHO3pIauM6jQgKlpMZwC6Be5LxC",
+      "sha256": "39b0f3e0183008c81b2dde3fabceda37a49194e4432b49f186d8d6cea1b5e9fc",
+      "enc_sha256": "5370879bc03bd7d395aeb8f3a7d2d54806fd8d4277d77864952d27006933c954"
+    },
+    "test/synapse.spec.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "AEK3wAoQRLNQ9/F14m6+otEoHpB9bwNvoa51pIy9qZeu3rNrU9Un/b440f04mLF97XgDnge0MkrXr0e+",
+      "sha256": "d15ffc3158ab7f65b322a7e55a629f2585fbb10401c98281126b1517a7579cd0",
+      "enc_sha256": "c21a38591d2a8651738847f004cfa82f245a5b949c04dea339a0d6590a87a779"
+    },
+    "tsconfig.json": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "rKbtIdU+vBPTdi/hwmkGADkMhaPsvk1UddT7xiRTWzPy96+QobYkvKSWywQWK03NNC5+J6A+1F6+j9DW",
+      "sha256": "80b17885251ed4eb184b1397069d610499be30f9bd403b98d7a5fd1a9a37a3af",
+      "enc_sha256": "252f16e20137db0aeec49a69a68283f1c749fb2422f4fc7673864630dd2930a1"
+    }
+  },
+  "key_version": 1
+}
