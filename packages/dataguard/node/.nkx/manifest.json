@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "kdf": {
+    "salt": "q/d9aHL3Noq8QJfBF3VJwg==",
+    "n": 131072,
+    "r": 8,
+    "p": 1
+  },
+  "context": {
+    "build_id": "267727fb-37e0-4f90-92ca-1ee8452d9f47",
+    "runtime_sources": []
+  },
+  "slot_prefix": "packages/dataguard/node",
+  "files": {
+    "package.json": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "cwTYoIoEOUaRmCem5fheG+x7oWigtCtGRHFg2FS+Za/u52ubL6Rk112vdTmfHccmMAaKZ5aNsQnSMkdI",
+      "sha256": "af6b3da0922a83539fdd77bcdfd66a94fb6bb4838696a7b2094355c79d2613ba",
+      "enc_sha256": "f30a6c8c29b1c5654107e4304d9520aa18669b6f70f2b433a7d5ff2b0ea555d8"
+    },
+    "src/auditSink.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "NoAhfoPW0vMuhnjC++9opM5DGg5B8YV+Vp8xhwnYVeLgw1+D9dO/mNXfhTRDZK5Q8KC5m6ZTEsvSQkVS",
+      "sha256": "bcbf2ec69af6e52f5d75d37776debbc60d2c04451f80eabea458329eb0020060",
+      "enc_sha256": "79d658c80ea356730db6d3fc0b819855bc712c3c1c55a702142b678900cab9a9",
+      "module": "src.auditSink.ts",
+      "wrapped_mock_dek": "SHJKw/A7gVaedGyiZm78PGhJWjypl+dt+/t/A15AJV2sCxXNuPNbY1LyquiAmtd+PcbPyv48DofRiTp3",
+      "mock": "src/auditSink.ts.mock.ts.nkxc"
+    },
+    "src/filterRows.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "OvCnalufCs193QOoP+BPC1Q5cnGLL/G/XIjcIQRU7D11LZojQeVjTU/Uvx2YBBZPWQePUk9D+F3oUy6X",
+      "sha256": "93d33676e8fa2bb90939b996546712444256bf774417cb24e6f666d0eafa4ad8",
+      "enc_sha256": "a03d91658928cc32e5f7c8c7f3b0d37472976ddab9418199ccdc2ab5869ac47b",
+      "module": "src.filterRows.ts",
+      "wrapped_mock_dek": "dir5GiDvmsxPHtB5rEWgq0hMGlXj8N4l4QxQaTn94+HjLxKbZFUob05QRZ+PDLZoW5AMgd7YCtj/TAhK",
+      "mock": "src/filterRows.ts.mock.ts.nkxc"
+    },
+    "src/index.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "L7hFgpMSW9yhAZpM6cTaSe0LKZaZkmpMxJcIoypNmw9YaLLGrjN3QqDmEyI5KyIsx003bb0dbG17fLhx",
+      "sha256": "eb3104b7eb96012e71a932dc6ef34a8d1449a48c2a68cea470c7435ced4b05ea",
+      "enc_sha256": "d769c95513e5271e0fea296ab93928eace350f752ca471dc54b74fddacd044c2",
+      "module": "src.index.ts",
+      "wrapped_mock_dek": "iYCce55q77aXMdcDlP0K93ij0zA8VncEJF6eKDpXk1sa0XBCjJSdJOUcRQCBIqSN4BoExMV3l/XLtvkm",
+      "mock": "src/index.ts.mock.ts.nkxc"
+    },
+    "src/maskColumns.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "o1WsH3pVOiYZc8MKPEvXeql9qoX2+Rhg+Y62Jan25Z80rLeFx0WNaYeKcCSqBO1vr0iPN5bVQ8yJ+tEj",
+      "sha256": "22a1104170cce49d28bd629ce4b7b4a7537ba6da54b5ee402412f0b8aaa60a77",
+      "enc_sha256": "d8e68965c45b198c414f1f08efc2faac659a09da925a522df6fbbfc75bd164ac",
+      "module": "src.maskColumns.ts",
+      "wrapped_mock_dek": "Xh7Y8xsjvZbEi3TWQ2mHbcxWt8zO036ju3OdjeGgK5LPq6wJU81NmWDkhrje42FmWLcM+4emzVeGKzTH",
+      "mock": "src/maskColumns.ts.mock.ts.nkxc"
+    },
+    "src/policyCache.ts": {
+      "lang": "typescript",
+      "load_strategy": "hook",
+      "wrapped_dek": "xUNjVXRWJo0fPqnshvaVkUcj3K+ItH/Fr4d1HK4mDGN1lzyeoGpvzfQjnz1Bf/4eGJsfgzarH5Sl+7WN",
+      "sha256": "9b1b29bb9172da3dd49424caeebd02faa8cdb835deb8c11aa5cf1017ca748455",
+      "enc_sha256": "9d73fc5bbb160028a459b505052c0571e34393092dc58a8575708ccb8938dec7",
+      "module": "src.policyCache.ts",
+      "wrapped_mock_dek": "u/maIup2F5GRb8GW/qfHQ5NHgsVSguJeVbXjHMU2/JdkKdfpjcC3oFfj0ShdSDGmt+9yC2+jF6nSRb4/",
+      "mock": "src/policyCache.ts.mock.ts.nkxc"
+    },
+    "test/auditSink.test.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "lD4RlxgDGu1QTnMNE0FaqVM7v7mT5mhqmeffpy1nvTN1pngzwIm1GlcLleKwnE1U/Hoeviol8PyXv7fu",
+      "sha256": "e42bcdf6deb4ab8b4b985b27064eced4998a1f77a45ca12ff64a5077e5523802",
+      "enc_sha256": "7ff7572ed104e3361bda3f13f374cfa9b2e87a0c427ee5997df68bb724832955"
+    },
+    "test/filterRows.test.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "EUC0aibj//Q6ozHfpc98J6DIhU0WHuYmRsjKPW7NNflzQd3FwOXdhAL6MB0dmUizD4BV4/zvR/gsrkLE",
+      "sha256": "0efd8743c7c4edc4335aafe3ec7149aae833498456dee73f7c28ba744e65ed4b",
+      "enc_sha256": "8d8e2a13142152f0e9e9ccf62881f879530d894ccf3af4b1733b42c1d78f141c"
+    },
+    "test/maskColumns.test.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "F8NFyXxiNThXyv2gFQBOqyVrXSZuBSaAWtsGUWknPFLZ5VgPa5mpPYIFCXAvNq/9Vb0lRkVPi6LfF5dX",
+      "sha256": "6a6e356a7050ab47231fe0dd25a2cca1ccc07a8e324c876f54f99394caf6c361",
+      "enc_sha256": "dd5db72e5c90fe2dd2f7d6a9551ee01a6870a9f9de3dc0a74df49e265a886996"
+    },
+    "test/policyCache.test.ts": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "5rf3s/sT+pi/Z/y2uw+KQdPCNFyWtf5A2siJiGBAIaAcT2NWqegicwWcvXmRlsOMqoYX5KxR4l1XGDHr",
+      "sha256": "37cca7275b06bafe46aaa7f8b687a315f43bb359acb45d51aa2371997d5037d4",
+      "enc_sha256": "51cf8c61cd721049e52a55c3d4c5d33b23db93405da40bf84accb820c0043537"
+    },
+    "tsconfig.json": {
+      "lang": "text",
+      "load_strategy": "prebuild",
+      "wrapped_dek": "gIx2fhM0UCv8y88Jvd/XtM7l7aCeIFYIoJ1mtvIjhswBtjFEdUgYZ3wjCuNycLjtYZevv3WtdHtTg5ZQ",
+      "sha256": "80b17885251ed4eb184b1397069d610499be30f9bd403b98d7a5fd1a9a37a3af",
+      "enc_sha256": "49e0e1874a5808495edce17fb77a285feca806390658140ec8cfc455effa6da8"
+    }
+  },
+  "key_version": 1
+}
